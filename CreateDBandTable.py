@@ -58,12 +58,12 @@ def droptable(project_id,instance_id,database_id,table_id):
 
 if __name__ == "__main__":
     print("Using project " + project)
-    instance="regionalspanner"
+    instance="instancename"
     database="demo"
     createdatabase(project,instance,database)
     table="names"
     createtable(project,instance,database,table)
-    table="lotsofnames"
-    createtable(project,instance,database,table)
+    #table="lotsofnames"
+    #createtable(project,instance,database,table)
     #droptable(project,instance,database,table)
     
